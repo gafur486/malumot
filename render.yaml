@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: malumot
+    name: gafurjon-malumot
     runtime: node
     plan: free
     region: virginia
@@ -11,4 +11,3 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 22.13.0
-
